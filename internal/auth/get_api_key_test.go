@@ -5,7 +5,5 @@ import (
 )
 
 func TestSomething(t *testing.T) {
-	t.Run("test", func(t *testing.T) {
-		return
-	})
+	t.Run("test", func(t *testing.T) {})
 }
